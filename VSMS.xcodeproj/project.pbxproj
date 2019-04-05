@@ -19,7 +19,6 @@
 		D54C4811224223BD004FE033 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54C4810224223BD004FE033 /* LoginController.swift */; };
 		D54C48132242249D004FE033 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54C48122242249D004FE033 /* RegisterController.swift */; };
 		D54C481522422F20004FE033 /* MyAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54C481422422F20004FE033 /* MyAccountController.swift */; };
-		D54D0051224E3BD2009C9BFE /* Kawasaki2019.png in Resources */ = {isa = PBXBuildFile; fileRef = D54D0050224E3BD1009C9BFE /* Kawasaki2019.png */; };
 		D55FA97B223EBD34005B0C8D /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55FA97A223EBD34005B0C8D /* SettingController.swift */; };
 		D588515A224DC5CC006BF532 /* TablebalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5885159224DC5CC006BF532 /* TablebalanceViewController.swift */; };
 		D5901C8A2248890C00F0D581 /* StockTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5901C892248890C00F0D581 /* StockTransfer.swift */; };
@@ -28,7 +27,6 @@
 		D5B647202255AB2300C113FF /* TablepostViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6471F2255AB2300C113FF /* TablepostViewCell.swift */; };
 		D5BA49ED2255ECC100C61E9C /* TransferinfomationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA49EC2255ECC100C61E9C /* TransferinfomationViewController.swift */; };
 		D5D64F8F2236E41500A2D4E1 /* AccountDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D64F8E2236E41500A2D4E1 /* AccountDetail.swift */; };
-		D5D72B0E224CC951007D0CF8 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = D5D72B0D224CC951007D0CF8 /* Model */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +44,6 @@
 		D54C4810224223BD004FE033 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		D54C48122242249D004FE033 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		D54C481422422F20004FE033 /* MyAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountController.swift; sourceTree = "<group>"; };
-		D54D0050224E3BD1009C9BFE /* Kawasaki2019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Kawasaki2019.png; path = "../../../File image/Kawasaki2019.png"; sourceTree = "<group>"; };
 		D55FA97A223EBD34005B0C8D /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		D57357B7224E0EDD00DD3EA3 /* HondaDream2019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HondaDream2019.png; sourceTree = "<group>"; };
 		D5885159224DC5CC006BF532 /* TablebalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablebalanceViewController.swift; sourceTree = "<group>"; };
@@ -56,8 +53,6 @@
 		D5B6471F2255AB2300C113FF /* TablepostViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablepostViewCell.swift; sourceTree = "<group>"; };
 		D5BA49EC2255ECC100C61E9C /* TransferinfomationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferinfomationViewController.swift; sourceTree = "<group>"; };
 		D5D64F8E2236E41500A2D4E1 /* AccountDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetail.swift; sourceTree = "<group>"; };
-		D5D72B0D224CC951007D0CF8 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
-		D5FD8232224E332C00104FC2 /* HondaClick2019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HondaClick2019.png; path = "../../../File image/HondaClick2019.png"; sourceTree = "<group>"; };
 		D5FD8233224E332C00104FC2 /* HondaScoopy2019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HondaScoopy2019.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,14 +67,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8609D9E02226859A00DD7645 /* itemPostCell */ = {
-			isa = PBXGroup;
-			children = (
-				D5D72B0D224CC951007D0CF8 /* Model */,
-			);
-			path = itemPostCell;
-			sourceTree = "<group>";
-		};
 		865B5DA8221FDD3600864F7E = {
 			isa = PBXGroup;
 			children = (
@@ -100,11 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				D56F997F224E30EC00E13340 /* image */,
-				D5D72B0F224CCB29007D0CF8 /* Model */,
-				8609D9E02226859A00DD7645 /* itemPostCell */,
 				865B5DC9221FDD7200864F7E /* Controller */,
 				865B5DC7221FDD6400864F7E /* Views */,
-				865B5DC6221FDD5900864F7E /* Utils */,
 				865B5DB6221FDD3600864F7E /* ViewController.swift */,
 				865B5DB8221FDD3600864F7E /* Main.storyboard */,
 				D54A83CB225465A900BA1634 /* Assets.xcassets */,
@@ -112,13 +96,6 @@
 				865B5DC0221FDD3700864F7E /* Info.plist */,
 			);
 			path = VSMS;
-			sourceTree = "<group>";
-		};
-		865B5DC6221FDD5900864F7E /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		865B5DC7221FDD6400864F7E /* Views */ = {
@@ -162,19 +139,10 @@
 		D56F997F224E30EC00E13340 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				D54D0050224E3BD1009C9BFE /* Kawasaki2019.png */,
-				D5FD8232224E332C00104FC2 /* HondaClick2019.png */,
 				D5FD8233224E332C00104FC2 /* HondaScoopy2019.png */,
 				D57357B7224E0EDD00DD3EA3 /* HondaDream2019.png */,
 			);
 			path = image;
-			sourceTree = "<group>";
-		};
-		D5D72B0F224CCB29007D0CF8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,12 +203,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5D72B0E224CC951007D0CF8 /* Model in Resources */,
 				865B5DBF221FDD3700864F7E /* LaunchScreen.storyboard in Resources */,
 				D52D64532232726D00008156 /* PhotoListCollectionViewCell.xib in Resources */,
 				865B5DBA221FDD3600864F7E /* Main.storyboard in Resources */,
 				D54A83CC225465A900BA1634 /* Assets.xcassets in Resources */,
-				D54D0051224E3BD2009C9BFE /* Kawasaki2019.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
