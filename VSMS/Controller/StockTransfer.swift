@@ -23,7 +23,7 @@ class StockTranfer : UIViewController ,UINavigationControllerDelegate, UIImagePi
 //
 //        print("Hello from the other side")
 //    }
-    
+    //Hello
     
     
     @IBOutlet weak var imagebackground: UIImageView!
