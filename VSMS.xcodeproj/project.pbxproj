@@ -12,6 +12,18 @@
 		865B5DBA221FDD3600864F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865B5DB8221FDD3600864F7E /* Main.storyboard */; };
 		865B5DBF221FDD3700864F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865B5DBD221FDD3700864F7E /* LaunchScreen.storyboard */; };
 		865B5DCD221FE39400864F7E /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B5DCC221FE39400864F7E /* Register.swift */; };
+		C402139A22574C9C007920C4 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C402139922574C9B007920C4 /* MenuController.swift */; };
+		C402139E22574CD8007920C4 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C402139D22574CD7007920C4 /* SWRevealViewController.m */; };
+		C40213A422574D08007920C4 /* ProductDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C402139F22574D06007920C4 /* ProductDetailController.swift */; };
+		C40213A522574D08007920C4 /* HomeSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40213A022574D06007920C4 /* HomeSearchController.swift */; };
+		C40213A622574D08007920C4 /* UploadProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40213A122574D07007920C4 /* UploadProfileController.swift */; };
+		C40213A722574D08007920C4 /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40213A222574D07007920C4 /* SearchResultController.swift */; };
+		C40213A822574D08007920C4 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40213A322574D08007920C4 /* HomePageController.swift */; };
+		C40213AC22574D1F007920C4 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40213A922574D1E007920C4 /* ResultTableViewCell.swift */; };
+		C40213AD22574D1F007920C4 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40213AA22574D1E007920C4 /* HomeCollectionViewCell.swift */; };
+		C40213AE22574D1F007920C4 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40213AB22574D1F007920C4 /* MenuTableViewCell.swift */; };
+		C40213B422574D75007920C4 /* PostContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40213B222574D75007920C4 /* PostContainer.swift */; };
+		C40213B522574D75007920C4 /* BalancedContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40213B322574D75007920C4 /* BalancedContainer.swift */; };
 		D52D64522232726D00008156 /* PhotoListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D64502232726D00008156 /* PhotoListCollectionViewCell.swift */; };
 		D52D64532232726D00008156 /* PhotoListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52D64512232726D00008156 /* PhotoListCollectionViewCell.xib */; };
 		D52D64552232736D00008156 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D64542232736D00008156 /* NewViewController.swift */; };
@@ -37,6 +49,20 @@
 		865B5DBE221FDD3700864F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		865B5DC0221FDD3700864F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		865B5DCC221FE39400864F7E /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		C402139922574C9B007920C4 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		C402139B22574CD4007920C4 /* VSMS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VSMS-Bridging-Header.h"; sourceTree = "<group>"; };
+		C402139C22574CD6007920C4 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C402139D22574CD7007920C4 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C402139F22574D06007920C4 /* ProductDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailController.swift; sourceTree = "<group>"; };
+		C40213A022574D06007920C4 /* HomeSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSearchController.swift; sourceTree = "<group>"; };
+		C40213A122574D07007920C4 /* UploadProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadProfileController.swift; sourceTree = "<group>"; };
+		C40213A222574D07007920C4 /* SearchResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
+		C40213A322574D08007920C4 /* HomePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		C40213A922574D1E007920C4 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		C40213AA22574D1E007920C4 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		C40213AB22574D1F007920C4 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		C40213B222574D75007920C4 /* PostContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostContainer.swift; sourceTree = "<group>"; };
+		C40213B322574D75007920C4 /* BalancedContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalancedContainer.swift; sourceTree = "<group>"; };
 		D52D64502232726D00008156 /* PhotoListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListCollectionViewCell.swift; sourceTree = "<group>"; };
 		D52D64512232726D00008156 /* PhotoListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoListCollectionViewCell.xib; sourceTree = "<group>"; };
 		D52D64542232736D00008156 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
@@ -86,14 +112,19 @@
 		865B5DB3221FDD3600864F7E /* VSMS */ = {
 			isa = PBXGroup;
 			children = (
+				C40213B122574D64007920C4 /* Container */,
+				C402139822574BE2007920C4 /* Model */,
 				D56F997F224E30EC00E13340 /* image */,
 				865B5DC9221FDD7200864F7E /* Controller */,
 				865B5DC7221FDD6400864F7E /* Views */,
 				865B5DB6221FDD3600864F7E /* ViewController.swift */,
 				865B5DB8221FDD3600864F7E /* Main.storyboard */,
 				D54A83CB225465A900BA1634 /* Assets.xcassets */,
+				C402139C22574CD6007920C4 /* SWRevealViewController.h */,
+				C402139D22574CD7007920C4 /* SWRevealViewController.m */,
 				865B5DBD221FDD3700864F7E /* LaunchScreen.storyboard */,
 				865B5DC0221FDD3700864F7E /* Info.plist */,
+				C402139B22574CD4007920C4 /* VSMS-Bridging-Header.h */,
 			);
 			path = VSMS;
 			sourceTree = "<group>";
@@ -101,6 +132,9 @@
 		865B5DC7221FDD6400864F7E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C40213AA22574D1E007920C4 /* HomeCollectionViewCell.swift */,
+				C40213AB22574D1F007920C4 /* MenuTableViewCell.swift */,
+				C40213A922574D1E007920C4 /* ResultTableViewCell.swift */,
 				D52D644F2232720300008156 /* CollectionViewCell */,
 				865B5DCC221FE39400864F7E /* Register.swift */,
 			);
@@ -115,6 +149,11 @@
 				D52D64542232736D00008156 /* NewViewController.swift */,
 				D55FA97A223EBD34005B0C8D /* SettingController.swift */,
 				D54C4810224223BD004FE033 /* LoginController.swift */,
+				C40213A322574D08007920C4 /* HomePageController.swift */,
+				C40213A022574D06007920C4 /* HomeSearchController.swift */,
+				C402139F22574D06007920C4 /* ProductDetailController.swift */,
+				C40213A222574D07007920C4 /* SearchResultController.swift */,
+				C40213A122574D07007920C4 /* UploadProfileController.swift */,
 				D54C48122242249D004FE033 /* RegisterController.swift */,
 				D54C481422422F20004FE033 /* MyAccountController.swift */,
 				D5901C892248890C00F0D581 /* StockTransfer.swift */,
@@ -123,6 +162,23 @@
 				D5BA49EC2255ECC100C61E9C /* TransferinfomationViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C402139822574BE2007920C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C402139922574C9B007920C4 /* MenuController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C40213B122574D64007920C4 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				C40213B322574D75007920C4 /* BalancedContainer.swift */,
+				C40213B222574D75007920C4 /* PostContainer.swift */,
+			);
+			name = Container;
 			sourceTree = "<group>";
 		};
 		D52D644F2232720300008156 /* CollectionViewCell */ = {
@@ -177,6 +233,7 @@
 				TargetAttributes = {
 					865B5DB0221FDD3600864F7E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -217,21 +274,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40213A822574D08007920C4 /* HomePageController.swift in Sources */,
 				D54C48132242249D004FE033 /* RegisterController.swift in Sources */,
+				C402139A22574C9C007920C4 /* MenuController.swift in Sources */,
 				D5B6471E2255A91E00C113FF /* TablepostviewController.swift in Sources */,
 				D55FA97B223EBD34005B0C8D /* SettingController.swift in Sources */,
+				C40213A522574D08007920C4 /* HomeSearchController.swift in Sources */,
+				C40213B422574D75007920C4 /* PostContainer.swift in Sources */,
 				864F7A5D222E607C00437C24 /* AppDelegate.swift in Sources */,
+				C402139E22574CD8007920C4 /* SWRevealViewController.m in Sources */,
 				D5901C8A2248890C00F0D581 /* StockTransfer.swift in Sources */,
 				D5B647202255AB2300C113FF /* TablepostViewCell.swift in Sources */,
 				865B5DCD221FE39400864F7E /* Register.swift in Sources */,
+				C40213A722574D08007920C4 /* SearchResultController.swift in Sources */,
 				D5D64F8F2236E41500A2D4E1 /* AccountDetail.swift in Sources */,
 				D54C4811224223BD004FE033 /* LoginController.swift in Sources */,
 				D5BA49ED2255ECC100C61E9C /* TransferinfomationViewController.swift in Sources */,
 				D52D64552232736D00008156 /* NewViewController.swift in Sources */,
 				865B5DB7221FDD3600864F7E /* ViewController.swift in Sources */,
 				D588515A224DC5CC006BF532 /* TablebalanceViewController.swift in Sources */,
+				C40213B522574D75007920C4 /* BalancedContainer.swift in Sources */,
+				C40213A422574D08007920C4 /* ProductDetailController.swift in Sources */,
 				D54C481522422F20004FE033 /* MyAccountController.swift in Sources */,
+				C40213AD22574D1F007920C4 /* HomeCollectionViewCell.swift in Sources */,
 				D52D64522232726D00008156 /* PhotoListCollectionViewCell.swift in Sources */,
+				C40213AE22574D1F007920C4 /* MenuTableViewCell.swift in Sources */,
+				C40213A622574D08007920C4 /* UploadProfileController.swift in Sources */,
+				C40213AC22574D1F007920C4 /* ResultTableViewCell.swift in Sources */,
 				D5988B5D2251BD95004076D0 /* TablebalanceViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VSMS/Info.plist;
@@ -387,6 +457,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.121.VSMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VSMS/VSMS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -396,6 +468,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VSMS/Info.plist;
@@ -405,6 +478,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.121.VSMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VSMS/VSMS-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
