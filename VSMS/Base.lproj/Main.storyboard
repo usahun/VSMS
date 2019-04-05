@@ -2087,7 +2087,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3761" y="-641"/>
+            <point key="canvasLocation" x="3761" y="-851"/>
         </scene>
         <!--Stock Tranfer-->
         <scene sceneID="6BQ-SR-yAk">
@@ -2586,6 +2586,6 @@
         <image name="reload" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Rc1-58-iSZ"/>
+        <segue reference="NhQ-IF-Cnx"/>
     </inferredMetricsTieBreakers>
 </document>
