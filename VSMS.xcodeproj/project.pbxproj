@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A40B576ABDEBD0C0DDE15E0 /* Pods_VSMS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422454760A29C3178F1F4F7C /* Pods_VSMS.framework */; };
 		864F7A5D222E607C00437C24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F7A5C222E607C00437C24 /* AppDelegate.swift */; };
 		865B5DB7221FDD3600864F7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B5DB6221FDD3600864F7E /* ViewController.swift */; };
 		865B5DBA221FDD3600864F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865B5DB8221FDD3600864F7E /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		C40213AE22574D1F007920C4 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40213AB22574D1F007920C4 /* MenuTableViewCell.swift */; };
 		C40213B422574D75007920C4 /* PostContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40213B222574D75007920C4 /* PostContainer.swift */; };
 		C40213B522574D75007920C4 /* BalancedContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40213B322574D75007920C4 /* BalancedContainer.swift */; };
+		D521AC89226F19E200BE534A /* alertMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D521AC88226F19E200BE534A /* alertMessageViewController.swift */; };
 		D52D64522232726D00008156 /* PhotoListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D64502232726D00008156 /* PhotoListCollectionViewCell.swift */; };
 		D52D64532232726D00008156 /* PhotoListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52D64512232726D00008156 /* PhotoListCollectionViewCell.xib */; };
 		D52D64552232736D00008156 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D64542232736D00008156 /* NewViewController.swift */; };
@@ -43,6 +45,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DBE36CC98970F76E207A56D /* Pods-VSMS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSMS.release.xcconfig"; path = "Target Support Files/Pods-VSMS/Pods-VSMS.release.xcconfig"; sourceTree = "<group>"; };
+		1AF75AC80883AE714FAFFEFD /* Pods-VSMS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSMS.debug.xcconfig"; path = "Target Support Files/Pods-VSMS/Pods-VSMS.debug.xcconfig"; sourceTree = "<group>"; };
+		422454760A29C3178F1F4F7C /* Pods_VSMS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSMS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		864F7A5C222E607C00437C24 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		865B5DB1221FDD3600864F7E /* VSMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		865B5DB6221FDD3600864F7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +69,7 @@
 		C40213AB22574D1F007920C4 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		C40213B222574D75007920C4 /* PostContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostContainer.swift; sourceTree = "<group>"; };
 		C40213B322574D75007920C4 /* BalancedContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalancedContainer.swift; sourceTree = "<group>"; };
+		D521AC88226F19E200BE534A /* alertMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertMessageViewController.swift; sourceTree = "<group>"; };
 		D52D64502232726D00008156 /* PhotoListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListCollectionViewCell.swift; sourceTree = "<group>"; };
 		D52D64512232726D00008156 /* PhotoListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoListCollectionViewCell.xib; sourceTree = "<group>"; };
 		D52D64542232736D00008156 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A40B576ABDEBD0C0DDE15E0 /* Pods_VSMS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +107,8 @@
 			children = (
 				865B5DB3221FDD3600864F7E /* VSMS */,
 				865B5DB2221FDD3600864F7E /* Products */,
+				921D21CDE67B0CC389C8D671 /* Pods */,
+				9D8395D53B002605959ABBAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,8 +172,26 @@
 				D5B6471D2255A91E00C113FF /* TablepostviewController.swift */,
 				D5BA49EC2255ECC100C61E9C /* TransferinfomationViewController.swift */,
 				D5DE6174225D8A10006D2E9D /* VPPDViewController.swift */,
+				D521AC88226F19E200BE534A /* alertMessageViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		921D21CDE67B0CC389C8D671 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AF75AC80883AE714FAFFEFD /* Pods-VSMS.debug.xcconfig */,
+				0DBE36CC98970F76E207A56D /* Pods-VSMS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D8395D53B002605959ABBAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				422454760A29C3178F1F4F7C /* Pods_VSMS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C402139822574BE2007920C4 /* Model */ = {
@@ -211,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 865B5DC3221FDD3700864F7E /* Build configuration list for PBXNativeTarget "VSMS" */;
 			buildPhases = (
+				EBB541EF7C71BE7D50830F9C /* [CP] Check Pods Manifest.lock */,
 				865B5DAD221FDD3600864F7E /* Sources */,
 				865B5DAE221FDD3600864F7E /* Frameworks */,
 				865B5DAF221FDD3600864F7E /* Resources */,
@@ -272,11 +300,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EBB541EF7C71BE7D50830F9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VSMS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		865B5DAD221FDD3600864F7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D521AC89226F19E200BE534A /* alertMessageViewController.swift in Sources */,
 				C40213A822574D08007920C4 /* HomePageController.swift in Sources */,
 				D54C48132242249D004FE033 /* RegisterController.swift in Sources */,
 				C402139A22574C9C007920C4 /* MenuController.swift in Sources */,
@@ -449,6 +503,7 @@
 		};
 		865B5DC4221FDD3700864F7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF75AC80883AE714FAFFEFD /* Pods-VSMS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -470,6 +525,7 @@
 		};
 		865B5DC5221FDD3700864F7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBE36CC98970F76E207A56D /* Pods-VSMS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

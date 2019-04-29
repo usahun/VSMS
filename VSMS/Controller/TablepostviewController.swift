@@ -17,6 +17,8 @@ class TablepostviewController: UIViewController, UITableViewDelegate, UITableVie
   var arrayprice = ["2000","3000","1500","2700"]
 
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        
         return 4
     }
     

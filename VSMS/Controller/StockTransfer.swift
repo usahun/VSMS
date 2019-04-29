@@ -14,7 +14,17 @@ import UIKit
 //    func tabSwitchHandle()
 //}
 
-class StockTranfer : UIViewController ,UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+
+enum StoreProcess: Int {
+    case banlance
+    case post
+}
+
+protocol StoreProcessDelegate: class {
+    func callbackType(_ with: [String], type: StoreProcess)
+}
+
+class StockTranfer : UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
 //    func tabSwitchHandle() {
 //        Post.alpha = 0
 //        Balance.alpha = 1
@@ -24,6 +34,7 @@ class StockTranfer : UIViewController ,UINavigationControllerDelegate, UIImagePi
 //        print("Hello from the other side")
 //    }
     //Hello
+    
     
     
     @IBOutlet weak var imagebackground: UIImageView!
@@ -50,12 +61,15 @@ class StockTranfer : UIViewController ,UINavigationControllerDelegate, UIImagePi
         self.dismiss(animated: true, completion: nil)
     }
     
+    @IBOutlet weak var balanceViewController: TablebalanceViewController?
+    @IBOutlet weak var postViewController: TablepostviewController?
     
     @IBOutlet weak var Post: UIView!
     @IBOutlet weak var Balance: UIView!
     @IBOutlet weak var linebalance: UIView!
     @IBOutlet weak var linepost: UIView!
     @IBOutlet weak var img: UIImageView!
+    
     
   
     override func viewDidLoad() {
@@ -67,17 +81,14 @@ class StockTranfer : UIViewController ,UINavigationControllerDelegate, UIImagePi
         
     }
     
-   
+    
     @IBAction func switc (_ Sender: UISegmentedControl){
         if Sender.selectedSegmentIndex == 1 {
             Post.alpha = 0
             Balance.alpha = 1
             linebalance.isHidden = false
             linepost.isHidden = true
-            
-            
-        }
-        else {
+        } else {
             Post.alpha = 1
             Balance.alpha = 0
             linepost.isHidden = false
@@ -86,5 +97,17 @@ class StockTranfer : UIViewController ,UINavigationControllerDelegate, UIImagePi
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 

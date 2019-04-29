@@ -1,45 +1,62 @@
 //
-//  VPPDViewController.swift
+//  alertMessageViewController.swift
 //  VSMS
 //
-//  Created by usah on 4/9/19.
+//  Created by usah on 4/23/19.
 //  Copyright © 2019 121. All rights reserved.
 //
 
 import UIKit
 
-class VPPDViewController: UIViewController {
+class alertMessageViewController: UIViewController {
 
+    
     @IBOutlet weak var sliderCollectionView: UICollectionView!
     @IBOutlet weak var pageView: UIPageControl!
     
-    var imgArr = [  UIImage(named:"Dream2019"),
-                    UIImage(named:"Dream12019") ,
-                    UIImage(named:"Dream22019")]
+    var imgArr = [  UIImage(named:"Dream191"),
+                    UIImage(named:"Dream192") ,
+                    UIImage(named:"Dream193")]
     
     var timer = Timer()
     var counter = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         pageView.numberOfPages = imgArr.count
         pageView.currentPage = 0
         DispatchQueue.main.async {
             self.timer = Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(self.changeImage), userInfo: nil, repeats: true)
             
-            
             //hide navigation bar
-           self.navigationController?.navigationBar.tintColor =  .white
-           self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default )
-           self.navigationController?.navigationBar.shadowImage = UIImage()
+            self.navigationController?.navigationBar.tintColor =  .white
+            self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default )
+            self.navigationController?.navigationBar.shadowImage = UIImage()
+            self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Motocycle for Sale", style: .plain, target: nil, action: nil)
             
         }
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func altertNumberCall(_ sender: UIButton) {
+        
+        let alertCall = UIAlertController(title: "", message: "Call to the Saller", preferredStyle: .actionSheet)
+        
+        alertCall.addAction(UIAlertAction(title: "012898879", style: .default, handler: { (action) in
+            print("default")
+        }))
+        alertCall.addAction(UIAlertAction(title: "012888899", style: .default, handler: { (action) in
+            print("defaultr")
+        }))
+        
+        alertCall.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (action) in
+            print("Cancel")
+        }))
+        
+        self.present(alertCall, animated: true)
     }
+    
+    
     
     @objc func changeImage() {
         
@@ -57,10 +74,10 @@ class VPPDViewController: UIViewController {
         }
         
     }
-    
+
 }
 
-extension VPPDViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+extension alertMessageViewController : UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return imgArr.count
     }
@@ -74,7 +91,7 @@ extension VPPDViewController: UICollectionViewDelegate, UICollectionViewDataSour
     }
 }
 
-extension VPPDViewController: UICollectionViewDelegateFlowLayout {
+extension alertMessageViewController : UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
@@ -92,6 +109,5 @@ extension VPPDViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 0.0
     }
-
+    
 }
-

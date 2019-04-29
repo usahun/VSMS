@@ -7,17 +7,16 @@
 //
 
 import UIKit
-
 class TablebalanceViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     
    // var delegateFunc: tabSwitch!
     var motosbalance = ["HondaClick2019", "HondaScoopy2019", "HondaDream2019", "Kawasaki2019"]
+    var storeMotrs: [String] = []
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return(motosbalance.count)
     }
-    
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -27,7 +26,6 @@ class TablebalanceViewController: UIViewController, UITableViewDelegate, UITable
         cell.labelbalance.text = motosbalance[indexPath.row]
         cell.mytotal.text = "Total: \((indexPath.item + 1))" 
         return(cell)
-        
     }
     
     

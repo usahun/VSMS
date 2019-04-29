@@ -1,0 +1,6 @@
+framework module Pods_VSMS {
+  umbrella header "Pods-VSMS-umbrella.h"
+
+  export *
+  module * { export * }
+}
