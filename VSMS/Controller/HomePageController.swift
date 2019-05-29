@@ -103,7 +103,7 @@ class HomePageController: UIViewController, UICollectionViewDelegate, UICollecti
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        menuButton.target = revealViewController()
+        menuButton.target = presentedViewController  
         menuButton.action = #selector(SWRevealViewController().revealToggle(_:))
         
         view.addGestureRecognizer(revealViewController()!.panGestureRecognizer())

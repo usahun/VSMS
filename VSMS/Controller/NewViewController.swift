@@ -9,8 +9,10 @@ struct PostImageModel {
 class NewViewController: UIViewController {
     
     
-    @IBOutlet weak var map: MKMapView!
+  //  @IBOutlet weak var map: MKMapView!
+
     
+
     
     @IBOutlet private weak var collectionView: UICollectionView?
     
@@ -21,21 +23,22 @@ class NewViewController: UIViewController {
     var tempImage: UIImage?
     
     var currentIndex: Int = 0
-
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let span:MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
+       // let span:MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
         
-        let locations: CLLocationCoordinate2D = CLLocationCoordinate2DMake(11.568706,104.870350 )
-        let region: MKCoordinateRegion = MKCoordinateRegion(center: locations, span: span)
-        map.setRegion(region, animated: true)
+       // let locations: CLLocationCoordinate2D = CLLocationCoordinate2DMake(11.568706,104.870350 )
+       // let region: MKCoordinateRegion = MKCoordinateRegion(center: locations, span: span)
+       // map.setRegion(region, animated: true)
         
-        let annotation = MKPointAnnotation()
-        annotation.coordinate = locations
-        annotation.title = "121 Company"
-        annotation.subtitle = "Heard Office"
-        map.addAnnotation(annotation)
+       // let annotation = MKPointAnnotation()
+       // annotation.coordinate = locations
+       // annotation.title = "121 Company"
+       // annotation.subtitle = "Heard Office"
+       // map.addAnnotation(annotation)
         
         setupView()
         
